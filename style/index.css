@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.info-tag-blue {
+  @apply bg-[#EDF1F7]; 
+  @apply text-[#345279];
+}
+
+.info-tag-yellow {
+  @apply bg-[#FAFCEA];
+  @apply text-[#7F8919];
+}
+
+.info-tag-green {
+  @apply bg-[#ECFCFB];
+  @apply text-[#1FA08E];
+}
+
+.info-tag-purple {
+  @apply bg-[#F5F0FF];
+  @apply text-[#60419B];
+}
+
+.info-tag-red {
+  @apply bg-[#FAEEF2];
+  @apply text-[#7E324E];
+}
