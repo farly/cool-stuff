@@ -61,11 +61,11 @@ class Scheduler {
 
      if (duration === lessonDuration) {
         availabilitiesDurations[i] = availabilityDuration - duration 
-        lessonDurations[j] = 0 
+        lessonDurations[j] = 0 // not needed for debuggin purposes 
         j++
       } else if (duration === availabilityDuration) {
         lessonDurations[j] = lessonDuration - duration 
-        availabilitiesDurations[i] = 0 
+        availabilitiesDurations[i] = 0 // not needed for debugging purposes
         i++
       }
 
